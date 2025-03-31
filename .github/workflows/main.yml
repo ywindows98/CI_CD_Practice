@@ -29,4 +29,4 @@ jobs:
 		with:
 		  context: .
 		  push: true
-		  tags: ywindows98/test_repo
+		  tags: ywindows98/test_repo:latest
