@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-	name = "Ferko"
+	name = "Ferko2"
 	if "MY_NAME" in os.environ:
 		name = os.environ["MY_NAME"]
 	return "<h1 style='color:blue'>Hello There {}!</h1>".format(name)
